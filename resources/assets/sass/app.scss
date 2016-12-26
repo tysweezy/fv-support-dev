@@ -1,0 +1,30 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+header.main-header {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 1px 1px 7px #adadad;
+  -moz-box-shadow: 1px 1px 7px #adadad;
+  box-shadow: 1px 1px 7px #adadad;  
+}
+
+.brand {
+  text-align: center;
+}
+
+header.main-header img {
+  max-width: 100%;
+  height: 35px;
+  margin-top: 10px;
+}
+
+@import "themes";

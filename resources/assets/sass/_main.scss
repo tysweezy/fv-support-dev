@@ -1,0 +1,79 @@
+header.main-header {
+  height: 60px;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 7px #adadad;
+  -moz-box-shadow: 1px 1px 7px #adadad;
+  box-shadow: 1px 1px 7px #adadad;
+}
+
+.brand {
+  text-align: center;
+}
+
+header.main-header img {
+  max-width: 100%;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.banner {
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: table;
+}
+
+.banner h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 2px #000;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.items a {
+  display: block;
+  background: #ccc;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  transition: opacity .5s ease-out;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.items a:hover {
+  opacity: 0.6;
+}
+
+span.item-title {
+  background: rgba(0, 0, 0, .8);
+  padding: 10px;
+}
+
+#survey-request {
+  background: url(../img/survey-request.jpg) no-repeat;
+  background-size: cover;
+}
+
+#kinesis {
+  background: url(../img/kinesis.jpg) no-repeat;
+  background-size: cover;
+}
+
+#survey-themes {
+  background: url(../img/survey-themes.jpg) no-repeat;
+  background-size: cover;
+}
+
+#survey-style {
+  background: url(../img/style-guide.jpg) no-repeat;
+  background-size: cover;
+}
+
+#blog {
+  background: url(../img/blog.jpg) no-repeat;
+  background-size: cover;
+}
